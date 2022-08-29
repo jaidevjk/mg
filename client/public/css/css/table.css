@@ -1,0 +1,68 @@
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.6rem !important;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.styled-table thead tr {
+  background-color: #32871a;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 18px 15px;
+  text-align: center !important;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #32871a;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #32871a;
+}
+.pen {
+  transition: all 0s ease;
+}
+.pen:hover {
+  color: #32871a;
+}
+.fa-trash:hover {
+  color: red;
+}
+.fa-envelope:hover {
+  color: rgb(218, 137, 31);
+}
+
+/* Products form */
+.products_input {
+  padding: 2rem;
+}
+.form-select {
+  padding: 1rem;
+  width: 100%;
+  background-color: rgb(221, 221, 221);
+  border-radius: 10px;
+}
+.sub_btn {
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  margin: 2rem 0;
+  margin-right: 2rem;
+}
+.label_req {
+  color: red;
+  font-size: 2rem !important;
+}

@@ -1,0 +1,17 @@
+.careerObject object {
+  width: 100%;
+  height: 600px;
+}
+.applied p {
+  font-size: 2.5rem;
+}
+.back_btn {
+  color: #fff;
+  padding: 0.5rem;
+  background: rgb(9, 76, 153);
+  display: inline-block;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-family: sans-serif;
+  text-decoration: none;
+}

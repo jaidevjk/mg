@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  .res_margin {
+    margin: 4rem auto;
+  }
+}
+
+.contactLink:hover {
+  color: darkgreen;
+}
+
+.download object {
+  width: 100%;
+  height: 100vh;
+}

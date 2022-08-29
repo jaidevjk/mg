@@ -1,0 +1,63 @@
+{
+  "name": "multiplex",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.23.0",
+    "emailjs-com": "^3.2.0",
+    "file-saver": "^2.0.5",
+    "filterizr": "^2.2.4",
+    "http-proxy-middleware": "^2.0.1",
+    "jquery": "^3.6.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-countup": "^6.1.1",
+    "react-dom": "^17.0.2",
+    "react-file-base64": "^1.0.3",
+    "react-isotope": "^1.0.7",
+    "react-loader-spinner": "^4.0.0",
+    "react-minimal-side-navigation": "^1.9.2",
+    "react-number-counter": "^1.0.8",
+    "react-owl-carousel": "^2.3.3",
+    "react-pdf": "^5.7.1",
+    "react-promise-tracker": "^2.1.0",
+    "react-redux": "^7.2.5",
+    "react-responsive-carousel": "^3.2.22",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-to-print": "^2.14.0",
+    "redux": "^4.1.1",
+    "redux-form": "^8.3.7",
+    "redux-thunk": "^2.3.0",
+    "smart-app-banner-react": "^2.0.1",
+    "web-vitals": "^1.1.2",
+    "xlsx": "^0.18.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

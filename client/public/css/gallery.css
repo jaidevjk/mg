@@ -1,0 +1,233 @@
+/* ******************************************************
+	Author URI: https://frontendscript.com
+	Demo Purpose Only - May not require to add.
+	font-family: 'Work Sans', sans-serif;
+*********************************************************/
+
+.cus_gallery a {
+  text-decoration: none;
+  outline: none;
+}
+.cus_gallery a:hover,
+.cus_gallery a:focus {
+  color: #373e18;
+}
+.cus_gallery section {
+  float: left;
+  width: 100%;
+  padding-bottom: 3em;
+}
+.cus_gallery h2 {
+  color: #1a0e0e;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.cus_gallery h2 span {
+  display: block;
+  padding: 0;
+  font-size: 18px;
+  opacity: 0.7;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.cus_gallery #float-right {
+  float: right;
+}
+
+/* ******************************************************
+	Script Top
+*********************************************************/
+
+.cus_gallery .ScriptTop {
+  background: #fff none repeat scroll 0 0;
+  float: left;
+  font-size: 0.69em;
+  font-weight: 600;
+  line-height: 2.2;
+  padding: 12px 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+/* To Navigation Style 1*/
+.cus_gallery .ScriptTop ul {
+  margin: 24px 0;
+  padding: 0;
+  text-align: left;
+}
+.cus_gallery .ScriptTop li {
+  list-style: none;
+  display: inline-block;
+}
+.cus_gallery .ScriptTop li a {
+  background: #6a4aed none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.cus_gallery .ScriptTop li a:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* ******************************************************
+	Script Header
+*********************************************************/
+
+.cus_gallery .ScriptHeader {
+  float: left;
+  width: 100%;
+  padding: 2em 0;
+}
+.cus_gallery .rt-heading {
+  margin: 0 auto;
+  text-align: center;
+}
+.cus_gallery .Scriptcontent {
+  line-height: 28px;
+}
+.cus_gallery .ScriptHeader h1 {
+  color: #6a4aed;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+  line-height: normal;
+}
+.cus_gallery .ScriptHeader h2 {
+  color: #312c8f;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5px 0 0;
+  line-height: normal;
+}
+.cus_gallery .ScriptHeader h1 span {
+  display: block;
+  padding: 0;
+  font-size: 22px;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+.cus_gallery .ScriptHeader span {
+  display: block;
+  padding: 0;
+  font-size: 22px;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+/* ******************************************************
+	Live Demo
+*********************************************************/
+
+/* ******************************************************
+	Responsive Grids
+*********************************************************/
+
+.cus_gallery .rt-container {
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.cus_gallery .rt-row:before,
+.cus_gallery .rt-row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.cus_gallery .rt-row:after {
+  clear: both;
+}
+[class^="col-rt-"] {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  padding: 0 15px;
+  min-height: 1px;
+  position: relative;
+}
+
+.ceoImg {
+  max-width: 120% !important;
+}
+
+.products_style img {
+  vertical-align: auto !important;
+}
+
+@media (min-width: 768px) {
+  .cus_gallery .rt-container {
+    width: 750px;
+  }
+  [class^="col-rt-"] {
+    float: left;
+    width: 49.9999999999%;
+  }
+  .cus_gallery .col-rt-6,
+  .cus_gallery .col-rt-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cus_gallery .rt-container {
+    width: 1170px;
+  }
+  .cus_gallery .col-rt-1 {
+    width: 16.6%;
+  }
+  .cus_gallery .col-rt-2 {
+    width: 30.33%;
+  }
+  .cus_gallery .col-rt-3 {
+    width: 50%;
+  }
+  .cus_gallery .col-rt-4 {
+    width: 67.664%;
+  }
+  .cus_gallery .col-rt-5 {
+    width: 83.33%;
+  }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 768px) {
+  .cus_gallery .ScriptTop h1,
+  .cus_gallery .ScriptTop ul {
+    text-align: center;
+  }
+  .cus_gallery .ScriptTop h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .cus_gallery .ScriptTop ul {
+    margin-top: 12px;
+  }
+
+  .cus_gallery .ScriptHeader h1,
+  .cus_gallery .ScriptHeader h2,
+  .scriptnav ul {
+    text-align: center;
+  }
+  .cus_gallery .scriptnav ul {
+    margin-top: 12px;
+  }
+  .cus_gallery #float-right {
+    float: none;
+  }
+  .paddingRow .col-lg-6 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .ceoImg {
+    max-width: 150% !important;
+  }
+}

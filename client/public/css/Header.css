@@ -1,0 +1,30 @@
+.search_bar {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  background: transparent;
+}
+.search_bar input {
+  padding: 2rem;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid darkgreen;
+}
+
+.search_close {
+  cursor: pointer;
+  font-size: 4rem !important;
+  position: absolute !important;
+  top: 0% !important;
+  right: 3%;
+  transform: translateY(-25%);
+}
+
+@media only screen and (max-width: 980px) {
+  .search_bar {
+    top: 70%;
+  }
+}
