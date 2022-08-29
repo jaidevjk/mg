@@ -6,6 +6,8 @@ const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const enforce = require("express-sslify");
 
+const path = require ("path");
+
 const postRouter = require("./routes/ProductRoutes.js");
 const categoryRoutes = require("./routes/CategoryRoutes.js");
 const userRoutes = require("./routes/Users.js");
