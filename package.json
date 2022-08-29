@@ -4,8 +4,8 @@
   "description": "Multiplex Group Project",
   "main": "index.js",
   "engines": {
-    "npm": "8.15.0",
-    "node": "16.7.0"
+    "npm": "8.17.0",
+    "node": "16.13.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
